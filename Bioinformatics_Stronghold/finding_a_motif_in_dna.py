@@ -71,3 +71,6 @@ for location in locations_of_motif:
 print(string_of_locations)
 # save the answers in a text file
 output.write(string_of_locations)
+# close the files
+file.close()
+output.close()
